@@ -1,1 +1,10 @@
+#docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
+
 docker run -d --name sonar -p 9000:9000 sonarqube:community
+
+#docker run -d \  --name sonar \  -p 9000:9000 \  sonarqube:latest
+
+
+# check sonar qube version 
+#docker logs sonar | grep "SonarQube" 
+# "version" 
